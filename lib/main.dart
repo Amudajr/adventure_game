@@ -10,8 +10,6 @@ void main() {
   Flame.device.fullScreen();
   PixelAdventure game = PixelAdventure();
   runApp(
-    GameWidget(
-      game: kDebugMode ? PixelAdventure() : game,
-    ),
+    GameWidget(game: kDebugMode ? PixelAdventure() : game),
   );
 }
