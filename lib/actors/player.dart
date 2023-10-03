@@ -1,8 +1,9 @@
+// ignore_for_file: implementation_imports
+
 import 'dart:async';
 
 import 'package:adventure_fun/pixel_adventure.dart';
 import 'package:flame/components.dart';
-import 'package:flutter/src/services/keyboard_key.g.dart';
 import 'package:flutter/src/services/raw_keyboard.dart';
 
 enum PlayerState { idle, running }
